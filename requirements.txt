@@ -1,0 +1,50 @@
+# ----------------------------
+# Manipulation des données
+# ----------------------------
+pandas==1.4.2
+numpy==1.22.4
+mlflow
+csv
+json
+
+# ----------------------------
+# Requêtes HTTP et API
+# ----------------------------
+requests==2.27.1
+openrouteservice==2.3.3
+shapely>=2.0.1
+pyproj>=3.2.1,<3.4.0
+
+# ----------------------------
+# Machine Learning
+# ----------------------------
+scikit-learn==1.0.2
+xgboost
+# MLflow pour sauvegarde des modèles
+mlflow.sklearn
+
+# ----------------------------
+# Géospatiale
+# ----------------------------
+geopandas==0.12.2
+
+# ----------------------------
+# Base de données
+# ----------------------------
+SQLAlchemy==1.4.9
+psycopg[binary]
+apache-airflow-providers-postgres
+apache-airflow-providers-amazon
+
+# ----------------------------
+# Visualisation
+# ----------------------------
+matplotlib==3.5.3
+
+# ----------------------------
+# Dates et calendriers
+# ----------------------------
+holidays==0.28
+
+# Autres dépendances Python importantes
+requests>=2.25.1
